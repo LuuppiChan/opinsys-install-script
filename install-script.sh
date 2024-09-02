@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 value=0
 
@@ -77,34 +77,33 @@ esac
 done
 
 #value to launcher
-if [ value=launcher ]; then
+if [ value = launcher ]; then
 	value=l
 fi
 
-if [ value=Launcher ]; then
+if [ value = Launcher ]; then
 	value=l
 fi
 
-if [ value=o ]; then
+if [ value = o ]; then
 	value=l
 fi
 
 
 #value to uninstaller
-if [ value=uninstaller ]; then
+if [ value = uninstaller ]; then
 	value=u
 fi
 
-if [ value=Uninstaller ]; then
+if [ value = Uninstaller ]; then
 	value=u
 fi
-
 
 
 #uninstaller
 echo
 
-while [ $value=u ]; do
+while [ $value = u ]; do
 
 echo
 echo Welcome to the uninstaller
@@ -119,7 +118,7 @@ echo type \"q\" to quit
 echo
 
 read -p "Value: " value
-echo
+
 
 case $value in
 	1|steam|Steam) 
@@ -164,7 +163,7 @@ done
 
 echo
 
-while [ $value=l ]; do
+while [ $value = l ]; do
 
 echo
 echo Welcome to the app launcher
