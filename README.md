@@ -1,4 +1,5 @@
 Use at your own risk!
+
 # How to use
 
 1. Install the script `install-script.sh` from the [releases](https://github.com/LuuppiZ/opinsys-install-script/releases/tag/Release) tab
@@ -6,6 +7,8 @@ Use at your own risk!
 3. Open terminal by right clicking in the file explorer and pressing "Open in terminal"
 4. Run this `bash install-script.sh`
 5. Done! install/uninstall/launch the wanted programs.
+
+- All of these except Steam automatically uninstalls. Although all user data is still kept.
 
 ## Image of the script
 
