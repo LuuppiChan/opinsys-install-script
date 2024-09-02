@@ -8,7 +8,7 @@ Use at your own risk!
 4. Run this `bash install-script.sh`
 5. Done! install/uninstall/launch the wanted programs.
 
-- All of these except Steam automatically uninstalls. Although all user data is still kept.
+- All of these automatically uninstall on reboot except Steam although all user data is still kept.
 
 ## Image of the script
 
