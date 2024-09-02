@@ -5,3 +5,7 @@
 3. Open terminal by right clicking in the file explorer and pressing "Open in terminal"
 4. Run this 'bash install-script.sh"
 5. Done! install/uninstall/launch the wanted programs.
+
+## Image of the script
+
+![Startup screen](https://raw.githubusercontent.com/LuuppiZ/opinsys-install-script/377fe94bce34b423ba8e3b7635f718cd52f8ce24/sample-image.png)
