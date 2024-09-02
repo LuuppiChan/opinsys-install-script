@@ -9,4 +9,4 @@ Use at your own risk!
 
 ## Image of the script
 
-![Startup screen](https://raw.githubusercontent.com/LuuppiZ/opinsys-install-script/377fe94bce34b423ba8e3b7635f718cd52f8ce24/sample-image.png)
+![Startup screen](https://raw.githubusercontent.com/LuuppiZ/opinsys-install-script/main/sample-image-v1.0.png)
