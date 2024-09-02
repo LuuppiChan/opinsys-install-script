@@ -23,11 +23,11 @@ while true; do
 echo
 echo Welcome to the install script
 echo
-echo 1 install Steam
-echo 2 install Minecraft Launcher
-echo 3 install Discord
-echo 4 install Vesktop
-echo 5 install Brave
+echo type 1 to install Steam
+echo type 2 to install Minecraft Launcher
+echo type 3 to install Discord
+echo type 4 to install Vesktop
+echo type 5 to install Brave
 echo type \"l\" for app launcher
 echo type \"u\" for uninstaller
 echo type \"q\" to quit
@@ -109,13 +109,13 @@ while [ $value=u ]; do
 echo
 echo Welcome to the uninstaller
 echo
-echo 1 uninstall Steam
-echo 2 uninstall Minecraft Launcher
-echo 3 uninstall Discord
-echo 4 uninstall Vesktop
-echo 5 uninstall Brave
-echo \"i\" back to installer menu
-echo \"q\" to quit
+echo type 1 to uninstall Steam
+echo type 2 to uninstall Minecraft Launcher
+echo type 3 to uninstall Discord
+echo type 4 to uninstall Vesktop
+echo type 5 to uninstall Brave
+echo type \"i\" to return to the installer menu
+echo type \"q\" to quit
 echo
 
 read -p "Value: " value
@@ -175,13 +175,13 @@ sleep 1 #sleep 1
 echo Remember to keep the terminal open while the app is running.
 sleep 1 #sleep 1
 echo
-echo 1 launch Steam
-echo 2 launch Minecraft Launcher
-echo 3 launch Discord
-echo 4 launch Vesktop
-echo 5 launch Brave
-echo \"i\" back to installer menu
-echo \"q\" to quit
+echo type 1 to launch Steam
+echo type 2 to launch Minecraft Launcher
+echo type 3 to launch Discord
+echo type 4 to launch Vesktop
+echo type 5 to launch Brave
+echo type \"i\" to return to the installer menu
+echo type \"q\" to quit
 echo
 
 read -p "Value: " value
