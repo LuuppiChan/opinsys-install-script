@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>439</width>
-    <height>386</height>
+    <height>363</height>
    </rect>
   </property>
   <property name="font">
@@ -84,6 +84,20 @@
             <string>Paketin hallinta</string>
            </property>
           </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_tilanne">
+          <property name="text">
+           <string>Tilanne: </string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QProgressBar" name="progressBar">
+          <property name="value">
+           <number>24</number>
+          </property>
          </widget>
         </item>
         <item>

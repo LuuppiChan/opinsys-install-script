@@ -1,5 +1,6 @@
 import os
 import sys
+import subprocess
 
 from PySide6 import QtWidgets, QtCore, QtGui
 
@@ -18,13 +19,20 @@ class MainWindow(QtWidgets.QMainWindow):
 
     def asennus(self):
         # setup
+        temp_dir = "/tmp/opinsys-install"
         os.makedirs("/tmp/opinsys-install", exist_ok=True)
+
+        steam_link = "https://cdn.akamai.steamstatic.com/client/installer/steam.deb"
 
         match self.ui.comboBox_ohjelmat_asennus.currentText():
             case "Steam":
-                os.system("wget https://cdn.akamai.steamstatic.com/client/installer/steam.deb ")
+                steam_package_path = os.path.join(temp_dir, "steam.deb")
+                download_return = subprocess.run(["wget", steam_link, steam_package_path])  # download steam
+                install_return = subprocess.run(["pkexec", "dpkg", "-i", steam_package_path])  # install the package
+                os.remove(steam_package_path)  # remove the package (optional)
+                
+                #
 
-                pass
             case "Minecraft Launcher":
                 pass
             case "Discord":
