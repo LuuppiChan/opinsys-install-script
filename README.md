@@ -1,5 +1,10 @@
 Use at your own risk!
 
+# PATCHED!!!
+THIS HAS BEEN PATCHED FOR NOW.
+
+They took away sudo access which completely breaks this method. You could still maybe use user Flatpak to install some applications.
+
 # How to use
 
 1. Install the script `install-script.sh` from the [releases](https://github.com/LuuppiZ/opinsys-install-script/releases/tag/Release) tab
